@@ -1,6 +1,8 @@
 " use vim settings first
 set nocompatible
 
+color slate
+
 " change the mapleader from \ to ,
 let mapleader=","
 
