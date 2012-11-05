@@ -1,0 +1,41 @@
+# This is a whitelist approach
+*
+
+# READMEs are good
+!README
+
+# Git stuff
+!.gitignore
+!.gitmodules
+!.gitconfig
+!.gitignore_global
+
+# Run-control files
+!.irbrc
+!.pentadactylrc
+!.latexmkrc
+!.gemrc
+!.ircrc
+!.ghci
+
+# Config files
+!.beetsconfig
+!.config/
+!.config/*
+
+# Vim stuff
+!.vimrc
+!.vim/
+
+# Bash stuff
+!.bashrc
+!.bashrc.d/
+!.bashrc.d/*
+!.bash_logout
+!.profile
+
+# Scripts
+!bin/
+!paste/
+
+

@@ -1,0 +1,28 @@
+[user]
+	name = Jack Moon
+  email = jack@contraflo.ws
+	ui = true
+	autocrlf = true
+[github]
+	user = jackwm
+	token = 8104c2d11aa53bad98ffe5ac99aa52b2
+[core]
+	autocrlf = input
+	mergeoptions = --no-ff
+	excludesfile = /home/jack/.gitignore_global
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[alias]
+	co = checkout
+	st = "status -s"
+	br = branch
+[merge]
+	tool = gvimdiff
+[dude]
+	interval = 30
+	icon = /home/jack/.git-dude/octocat.png
+[help]
+	autocorrect = 1
