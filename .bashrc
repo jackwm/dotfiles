@@ -222,7 +222,7 @@ function makecss()
 
 function _update_ps1()
 {
-   export PS1="$(~/bin/powerline-bash.py $?)"
+   export PS1="$(~/bin/.repos/powerline-bash/powerline-bash.py $?)"
 }
 export PROMPT_COMMAND="_update_ps1"
 export TERM="xterm-256color"
