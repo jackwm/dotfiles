@@ -1,0 +1,27 @@
+# Whitelisting scripts
+!*
+
+# Except the icky stuff
+*.un~
+*.swp
+*.bak
+.hidden
+
+# Net usage scripts
+.optus*
+optus
+optus-*
+usage-do*
+
+# Program-starting scripts
+shoes*
+dropbox
+
+# Vendored scripts
+cisco-decrypt
+pcf2vpnc
+jfifremove
+pngout
+imgopt
+words-*
+latin
