@@ -1,13 +1,23 @@
 #!/bin/bash
 
-sudo apt-get -y install gimp clementine banshee python git vim vim-gnome vim-latexsuite wine gems texlive gtk2-engines-pixbuf vlc zlib1g-dev build-essential libssl-dev libreadline-dev gcc make zlib zlib-devel openssl openssl-devel
+sudo apt-get -y install gimp clementine banshee python git vim vim-gnome vim-latexsuite wine texlive gtk2-engines-pixbuf vlc zlib1g-dev build-essential libssl-dev libreadline-dev gcc make zlib zlib-devel openssl openssl-devel
 
 sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
 sudo add-apt-repository ppa:ubuntu-wine/ppa
 sudo add-apt-repository ppa:me-davidsansome/clementine-dev
 
+# Installing rbenv
 cd
 git clone git://github.com/sstephenson/rbenv.git .rbenv
+
+# Installing Ruby with rbenv
+cd /tmp/
+wget http://ftp.ruby-lang.org/pub/ruby/ruby-1.9-stable.tar.gz
+tar -zxvf ruby-1.9-stable.tar.gz
+cd ruby-1.9-stable.tar.gz
+./configure --prefix=$HOME/.rbenv/versions/1.9.2-p290
+make
+make install
 
 sudo apt-get update
 sudo apt-get -y upgrade
