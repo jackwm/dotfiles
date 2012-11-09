@@ -37,6 +37,7 @@
 # Scripts
 !bin/
 !bin/*
+!bin/.*
 !paste/
 !.recreate_sys
 
