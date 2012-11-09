@@ -24,6 +24,12 @@ rbenv rehash
 rben global 1.9.3-p286
 rbenv rehash
 
+cd /tmp/
+wget https://gist.github.com/gists/2416601/download
+tar -zxvf gist*
+cd gist*
+gnome-open Terminus-Powerline.ttf
+
 sudo apt-get update
 sudo apt-get -y upgrade
 
