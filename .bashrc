@@ -19,7 +19,6 @@ HISTFILESIZE=2000
 # Git ssh key
 SSH_ENV="$HOME/.ssh/environment"
 
-
 # start the ssh-agent
 function start_agent {
     echo "Initializing new SSH agent..."

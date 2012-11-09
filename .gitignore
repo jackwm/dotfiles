@@ -37,5 +37,6 @@
 # Scripts
 !bin/
 !paste/
+!.recreate_sys
 
 
