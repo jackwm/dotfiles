@@ -220,6 +220,8 @@ function makecss()
   done
 }
 
+source ~/.secrets
+
 function _update_ps1()
 {
    export PS1="$(~/bin/.repos/powerline-bash/powerline-bash.py $?)"
