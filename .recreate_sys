@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get -y install gimp clementine banshee python pip git vim vim-gnome vim-latexsuite wine texlive gtk2-engines-pixbuf vlc zlib1g-dev build-essential libssl-dev libreadline-dev gcc make zlib zlib-devel openssl openssl-devel
+sudo apt-get -y install gimp clementine banshee python pip git comix vim vim-gnome vim-latexsuite wine texlive gtk2-engines-pixbuf vlc zlib1g-dev build-essential libssl-dev libreadline-dev gcc make zlib zlib-devel openssl openssl-devel
 
 sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
 sudo add-apt-repository ppa:ubuntu-wine/ppa
