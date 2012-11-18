@@ -200,10 +200,6 @@ alias thins='bundle exec thin start'
 # alias gem='gem1.9.1' 
 # alias rake='rake1.9.1'
 
-# export http_proxy="http://jmoo5590!10:jwmoon4@web-cache-ext.usyd.edu.au:8080"
-# export HTTP_PROXY=$http_proxy
-# export PS1='\[\e[7m\]$(variprompt.sh $COLUMNS 30)\[\e[32m\]$(__git_ps1)\[\e[39m\]\[\e[27m\] '
-
 export PATH="$HOME/.rbenv/bin":"$HOME/.rbenv/shims:$PATH"
 eval "$(rbenv init -)"
 
