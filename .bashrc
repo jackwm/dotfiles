@@ -231,3 +231,12 @@ function dole()
   echo $CENTRELINK_SECRET
 }
 
+function paypal()
+{
+  echo $PAYPAL_SECRET
+}
+
+function gmail()
+{
+  echo $GMAIL_SECRET
+}
