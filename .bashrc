@@ -240,3 +240,9 @@ function gmail()
 {
   echo $GMAIL_SECRET
 }
+
+function tpg()
+{
+  echo $TPG_LOGON
+  echo $TPG_SECRET
+}
