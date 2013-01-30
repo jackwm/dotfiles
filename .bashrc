@@ -246,3 +246,9 @@ function tpg()
   echo $TPG_LOGON
   echo $TPG_SECRET
 }
+
+function vodafone()
+{
+  echo $VODAFONE_LOGON
+  echo $VODAFONE_SECRET  
+}
