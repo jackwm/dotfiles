@@ -32,7 +32,7 @@ set wrap
 set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=80
-set lines=50 columns=84
+set lines=48 columns=84
 
 " scrolling
 set scrolloff=5
