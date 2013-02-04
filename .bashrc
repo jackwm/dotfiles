@@ -223,6 +223,8 @@ function _update_ps1()
 export PROMPT_COMMAND="_update_ps1"
 export TERM="xterm-256color"
 
+source .secrets
+
 function dole()
 {
   echo $CENTRELINK_LOGON
