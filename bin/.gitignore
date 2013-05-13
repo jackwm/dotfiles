@@ -1,6 +1,7 @@
 # Whitelisting scripts
 !*
 
+power*
 .repos
 
 # Except the icky stuff
