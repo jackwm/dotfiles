@@ -216,11 +216,12 @@ function makecss()
   done
 }
 
-function _update_ps1()
-{
-   export PS1="$(~/bin/.repos/powerline-bash/powerline-bash.py $?)"
+function _update_ps1() {
+   export PS1="$(~/bin/.repos/powerline-shell/powerline-shell.py $?)"
 }
+
 export PROMPT_COMMAND="_update_ps1"
+
 export TERM="xterm-256color"
 
 source .secrets
@@ -252,3 +253,6 @@ function vodafone()
   echo $VODAFONE_LOGON
   echo $VODAFONE_SECRET  
 }
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

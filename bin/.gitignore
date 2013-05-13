@@ -1,6 +1,8 @@
 # Whitelisting scripts
 !*
 
+.repos
+
 # Except the icky stuff
 *.un~
 *.swp
