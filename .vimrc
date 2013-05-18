@@ -143,6 +143,8 @@ map <leader>al i\begin{align}<cr><cr>\end{align} <Esc>k
 map <leader>seq i\begin{subequations}<cr><cr>\end{subeqations} <Esc>k
 map <leader>mp i\begin{minipage}{0.5\linewidth}<cr><cr>\end{minipage} <Esc>k
 map <leader>eq i\begin{equation}<cr><cr>\end{equation} <Esc>k
+map <leader>dn i\begin{Definition}[]<cr>\leavevmode\newline<cr><cr>\end{Definition} <Esc>kkklll
+map <leader>tm i\begin{Theorem}[]<cr>\leavevmode\newline<cr><cr>\end{Theorem} <Esc>kkklll
 
 map <leader>m :w<cr>\|:!./maketex<cr>
 
