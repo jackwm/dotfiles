@@ -5,9 +5,9 @@
           <vendor>???</vendor>
           <product>0x0000</product>
           <serial>0x00000000</serial>
-          <width>1920</width>
-          <height>1080</height>
-          <rate>50</rate>
+          <width>1024</width>
+          <height>768</height>
+          <rate>61</rate>
           <x>0</x>
           <y>0</y>
           <rotation>normal</rotation>
