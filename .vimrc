@@ -49,7 +49,6 @@ au FocusLost * :wa
 
 " yank to OS clipboard
 nmap <leader>y "*y
-nmap <leader>p "*p
 nmap <leader>P "*P
 
 " Edit the vimrc file
@@ -144,6 +143,7 @@ map <leader>seq i\begin{subequations}<cr><cr>\end{subeqations} <Esc>k
 map <leader>mp i\begin{minipage}{0.5\linewidth}<cr><cr>\end{minipage} <Esc>k
 map <leader>eq i\begin{equation}<cr><cr>\end{equation} <Esc>k
 map <leader>dn i\begin{Definition}[]<cr><cr>\end{Definition} <Esc>kklll
+map <leader>pr i\begin{Proposition}[]<cr><cr>\end{Proposition} <Esc>kklll
 map <leader>tm i\begin{Theorem}[]<cr>\leavevmode\newline<cr><cr>\end{Theorem} <Esc>kkklll
 " General latex macros
 map <leader>bp i\begin{itemize}<cr>\item<cr>\end{itemize}<cr> <Esc>kk <A>
