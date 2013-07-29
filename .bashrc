@@ -16,6 +16,8 @@ shopt -s histappend
 HISTSIZE=1000
 HISTFILESIZE=2000
 
+PATH=~/bin:$PATH
+
 # Git ssh key
 SSH_ENV="$HOME/.ssh/environment"
 
