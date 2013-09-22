@@ -146,7 +146,7 @@ map <leader>dn i\begin{Definition}[]<cr><cr>\end{Definition} <Esc>kklll
 map <leader>pr i\begin{Proposition}[]<cr><cr>\end{Proposition} <Esc>kklll
 map <leader>tm i\begin{Theorem}[]<cr><cr>\end{Theorem} <Esc> kkkk A
 " General latex macros
-map <leader>bp i\begin{itemize}<cr>\item<cr>\end{itemize} <Esc>kk A
+map <leader>it i\begin{itemize}<cr>\item<cr>\end{itemize} <Esc>kk A
 map <leader>en i\begin{enumerate}<cr>\item<cr>\end{enumerate} <Esc> kk A
 
 map <leader>m :w<cr>\|:!./maketex<cr>
