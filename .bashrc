@@ -256,5 +256,9 @@ function vodafone()
   echo $VODAFONE_SECRET  
 }
 
+function work()
+{
+  source ~/bin/work
+}
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
