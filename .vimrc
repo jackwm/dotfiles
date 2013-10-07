@@ -83,6 +83,11 @@ set grepprg=grep\ -nH\ $*
 " disable smart quotes
 let g:Tex_SmartQuoteOpen='"'
 let g:Tex_SmartQuoteClose='"'
+"
+" Placeholders
+" let g:Imap_UsePlaceHolders = 1
+" let g:Imap_PlaceHolderStart = '<+'
+" let g:Imap_PlaceHolderEnd = '+>'
 
 map <leader>tc <esc>i<F9>
 map <leader>te <esc>i<F5>
