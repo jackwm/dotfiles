@@ -177,22 +177,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-# Web services
-#export S3_KEY="AKIAI4KQI75B372EEQOQ" # anna
-#export S3_SECRET="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" # anna
-export GA_KEY="UA-25379053-1" # anna
-
-# Contraflows
-export S3_KEY="AKIAIT5JUAQAM5M4IWVQ"
-export S3_SECRET="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"
-export S3_ASSET_BUCKET="ap-southeast-1:a.leacockgallery.com"
-export S3_CACHE_BUCKET="ap-southeast-1:ac.leacockgallery.com"
-
-# Paypal
-export PAYPAL_LOGIN="jack_1347714902_biz_api1.contraflo.ws"
-export PAYPAL_PASSWORD="1347714936"
-export PAYPAL_SIGNATURE="Aqi0pdInaqgY1ylpo2MWAEFGhUF0AmCNBPwVrDM-0sAiSV5enElxMoMo"
-
 # Padrino alias
 alias prake='padrino rake'
 alias thins='bundle exec thin start'
