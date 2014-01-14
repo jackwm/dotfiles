@@ -161,7 +161,7 @@ imap <leader>it \begin{itemize}<cr>\item <++><cr>\end{itemize}<++>
 imap <leader>en \begin{enumerate}<cr>\item<++><cr>\end{enumerate}<++>
 
 " Thesis Macros
-map <leader>m :w<cr>\|:!./maketex<cr>
+map <leader>m :w<cr>\|:!~/bin/./maketex<cr>
 imap <leader>sh \scr{} <Esc>h i
 imap <leader>int U_\alpha \cap U_\beta
 imap <leader>sm \smap{<++>}{<++>}<++>

@@ -210,7 +210,7 @@ export PROMPT_COMMAND="_update_ps1"
 
 export TERM="xterm-256color"
 
-source .secrets
+source ~/.secrets
 
 function dole()
 {
@@ -242,6 +242,7 @@ function vodafone()
 
 function work()
 {
+  export CURRENT_WORK="~/uni/PhD/notes/Kahler-Geometry"
   source ~/bin/work
 }
 ### Added by the Heroku Toolbelt
