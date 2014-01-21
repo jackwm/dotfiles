@@ -206,6 +206,9 @@ function _update_ps1() {
    export PS1="$(~/bin/.repos/powerline-shell/powerline-shell.py $?)"
 }
 
+export CURRENT_WORK="/home/jack/uni/PhD/notes/Algebraic-Geometry"
+export CURRENT_WD="/home/jack/uni/PhD/notes"
+
 export PROMPT_COMMAND="_update_ps1"
 
 export TERM="xterm-256color"
@@ -242,7 +245,6 @@ function vodafone()
 
 function work()
 {
-  export CURRENT_WORK="~/uni/PhD/notes/Kahler-Geometry"
   source ~/bin/work
 }
 ### Added by the Heroku Toolbelt
