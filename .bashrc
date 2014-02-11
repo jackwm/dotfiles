@@ -206,8 +206,9 @@ function _update_ps1() {
    export PS1="$(~/bin/.repos/powerline-shell/powerline-shell.py $?)"
 }
 
-export CURRENT_WORK="/home/jack/uni/PhD/notes/Algebraic-Geometry"
+export CURRENT_WORK="/home/jack/uni/PhD/notes/Matrix-Polynomials"
 export CURRENT_WD="/home/jack/uni/PhD/notes"
+export CURRENT_PAPER="/home/jack/uni/PhD/Papers/Hitchin - Langlands duality and G2 spectral curves.pdf"
 
 export PROMPT_COMMAND="_update_ps1"
 
@@ -245,7 +246,17 @@ function vodafone()
 
 function work()
 {
-  source ~/bin/work
+  if [ "$1" = "n" ]
+  then
+    source ~/bin/work
+  else
+    if [ "$1" = "p" ]
+    then
+      okular "$CURRENT_PAPER" &
+    else
+      echo 'No valid argument supplied, enter either $"p" for Paper or $"n" for notes'
+    fi
+  fi
 }
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
