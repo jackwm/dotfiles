@@ -207,6 +207,7 @@ function _update_ps1() {
 }
 
 export CURRENT_WORK="/home/jack/uni/PhD/notes/PhD-notes"
+export CURRENT_WORK_S="PhD-notes"
 export CURRENT_WD="/home/jack/uni/PhD/notes"
 export CURRENT_PAPER="/home/jack/uni/PhD/Papers/Hitchin - Langlands duality and G2 spectral curves.pdf"
 
