@@ -206,7 +206,7 @@ function _update_ps1() {
    export PS1="$(~/bin/.repos/powerline-shell/powerline-shell.py $?)"
 }
 
-export CURRENT_WORK="/home/jack/uni/PhD/notes/Matrix-Polynomials"
+export CURRENT_WORK="/home/jack/uni/PhD/notes/PhD-notes"
 export CURRENT_WD="/home/jack/uni/PhD/notes"
 export CURRENT_PAPER="/home/jack/uni/PhD/Papers/Hitchin - Langlands duality and G2 spectral curves.pdf"
 
