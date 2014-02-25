@@ -155,6 +155,7 @@ imap <leader>ra \rightarrow
 imap <leader>xra \xrightarrow{} <Esc> h i
 imap <leader>ses 0 \rightarrow <++> \rightarrow <++> \rightarrow <++> \rightarrow 0
 imap <leader>sum \sum_{<++>}^{<++>}<++>
+imap <leader>pde \frac{\partial <++>}{\partial <++>}
 
 " General latex macros
 imap <leader>it \begin{itemize}<cr>\item <++><cr>\end{itemize}<++>
